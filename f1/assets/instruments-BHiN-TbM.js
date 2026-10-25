@@ -1,0 +1,1 @@
+import{s as t}from"./index-D5abNwDK.js";function n(e={}){return t("/api/instruments",{q:e.q,sector:e.sector,has_data:e.has_data,sort:e.sort,order:e.order,page:e.page,page_size:e.page_size})}function o(e,s=20){return t("/api/search",{q:e,limit:s})}export{n as g,o as s};

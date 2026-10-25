@@ -1,0 +1,1 @@
+import{l as e}from"./index-D5abNwDK.js";function s(u){const r=e(null),n=e(!1),a=e(null);async function o(){n.value=!0,a.value=null;try{r.value=await u()}catch(l){a.value=l instanceof Error?l.message:"Unknown error"}finally{n.value=!1}}return{data:r,loading:n,error:a,run:o}}export{s as u};

@@ -1,0 +1,1 @@
+import{Q as o}from"./index-D5abNwDK.js";const c="news-cache";function i(e){const s=Math.random().toString(36).slice(2,10),t=o.get(c,{});t[s]=e;const n=Object.keys(t);if(n.length>30)for(const r of n.slice(0,n.length-30))delete t[r];return o.set(c,t),s}function l(e){return o.get(c,{})[e]??null}export{i as s,l as t};
